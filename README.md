@@ -125,13 +125,25 @@ For each year and slot:
 
 ## Outputs
 
-For each export scenario:
-- `optimization_results*.csv`  
+
+### Export Ratio = 1
+- `optimization_results.csv`  
   - Year-wise CapEx, OpEx, Export Revenue, Total Cost
-- `operational_details*.csv`  
+- `operational_details.csv`  
   - Slot-wise energy flows (solar, battery, grid, exports)
 
----
+### Export Ratio = 0.5
+- `optimization_results 0.5.csv`  
+  - Year-wise CapEx, OpEx, Export Revenue, Total Cost
+- `operational_details(0.5 export revenue).csv`  
+  - Slot-wise energy flows (solar, battery, grid, exports)
+
+### Export Ratio = 0
+- `optimization_results_no_export.csv`  
+  - Year-wise CapEx, OpEx, Export Revenue, Total Cost
+- `operational_details(no export).csv`  
+  - Slot-wise energy flows (solar, battery, grid, exports)
+
 
 ## Tools Used
 
